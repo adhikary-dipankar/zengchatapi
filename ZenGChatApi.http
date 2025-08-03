@@ -1,0 +1,6 @@
+@ZenGChatApi_HostAddress = http://localhost:5025
+
+GET {{ZenGChatApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
