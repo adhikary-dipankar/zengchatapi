@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZenGChatApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0847daf14444023219553bd4d90ae1b4cbd33a7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5e3102628297649e02814ec7ca2d6922ab8c2ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZenGChatApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZenGChatApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
