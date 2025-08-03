@@ -39,7 +39,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular", builder =>
-        builder.WithOrigins("https://adhikary-dipankar.github.io/zen-gchat/","http://localhost:4200")
+        builder.WithOrigins("https://adhikary-dipankar.github.io")
                .AllowAnyMethod()
                .AllowAnyHeader());
 });
@@ -75,7 +75,7 @@ builder.Services.AddSwaggerGen(c =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.UseCors("AllowGitHubPages");
+app.UseCors("AllowAngular");
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
